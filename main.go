@@ -1,15 +1,15 @@
 package main
 
 import (
-	"DiscordProject/Discord"
 	"DiscordProject/config"
+	"DiscordProject/discord"
 	"os"
 	"os/signal"
 )
 
 func main() {
 	config.SetConfig()
-	Discord.InitDiscord()
+	discord.InitDiscord()
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt)
 	<-c

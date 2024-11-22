@@ -1,4 +1,4 @@
-package Discord
+package discord
 
 import (
 	"DiscordProject/pokemon"
@@ -14,12 +14,12 @@ func InitDiscord() {
 	err := discord.Open()
 	fmt.Printf("Bot running.... \n")
 	if err != nil {
-		fmt.Errorf("error opening connection to Discord: %v", err)
+		fmt.Errorf("error opening connection to discord: %v", err)
 	}
 	defer func(discord *discordgo.Session) {
 		err := discord.Close()
 		if err != nil {
-			fmt.Errorf("error closing connection to Discord: %v", err)
+			fmt.Errorf("error closing connection to discord: %v", err)
 		}
 	}(discord)
 }
