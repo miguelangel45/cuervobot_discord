@@ -1,7 +1,7 @@
 package discord
 
 import (
-	"DiscordProject/pokemon"
+	"discordProject/pokemon"
 	"fmt"
 	"github.com/bwmarrin/discordgo"
 	"os"

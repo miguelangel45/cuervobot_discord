@@ -1,8 +1,8 @@
 package main
 
 import (
-	"DiscordProject/config"
-	"DiscordProject/discord"
+	"discordProject/config"
+	"discordProject/discord"
 	"os"
 	"os/signal"
 )

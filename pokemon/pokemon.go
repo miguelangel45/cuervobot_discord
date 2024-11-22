@@ -1,8 +1,8 @@
 package pokemon
 
 import (
-	"DiscordProject/pokemon/structures"
 	"bytes"
+	"discordProject/pokemon/structures"
 	"encoding/json"
 	"github.com/bwmarrin/discordgo"
 	"io"
