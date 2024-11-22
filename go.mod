@@ -1,4 +1,4 @@
-module DiscordProject
+module discordProject
 
 go 1.23.0
 
